@@ -1,6 +1,9 @@
 import React from "react";
 import './about.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+
 import about_image from '../../assets/images/photo-1618221195710-dd6b41faaea6.webp';
 import about_image2 from "../../assets/images/photo-1586023492125-27b2c045efd7.webp";
 import about_image3 from "../../assets/images/photo-1618219740975-d40978bb7378.webp";
@@ -8,7 +11,24 @@ import about_image4 from "../../assets/images/photo-1567016376408-0226e4d0c1ea.w
 import about_image5 from "../../assets/images/photo-1606744837616-56c9a5c6a6eb.webp";
 const AboutUs = () => {
   return (
-    <section id="aboutUs" className="bg-teal-50">
+    <section id="aboutUs" className="mt-20">
+      <div className="max-w-6xl mx-auto text-center md:w-11/12 xl:w-9/12 md:text-center">
+            <h1 className="mb-6 text-2xl font-extrabold leading-none tracking-normal text-teal-900 md:text-4xl md:tracking-tight primary_text editable"
+                    data-content="website-headlines">Our Vision</h1>
+                <p className="px-0 mb-6 text-lg text-gray-600 md:text-xl lg:px-24  editable" data-content="website-subheadlines">
+                    To be the premier interior design company that consistently delivers exceptional design solutions that exceed our clients' expectations.</p>
+                    <h1 className="mb-6 text-2xl font-extrabold leading-none tracking-normal text-teal-900 md:text-4xl md:tracking-tight primary_text editable"
+                    data-content="website-headlines">Our Mission</h1>
+                <p className="px-0 mb-6 text-lg text-gray-600 md:text-xl lg:px-24  editable" data-content="website-subheadlines">
+                    To provide a full range of interior design services that enhance the functionality, aesthetics, and value of our clients' spaces. We strive to create meaningful and enduring designs that reflect our clients' personalities and lifestyles, and to deliver these services with the highest level of professionalism, creativity, and customer satisfaction. We are committed to being a trusted partner for our clients and to contributing to the betterment of the communities in which we work.</p>
+                <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
+                    <a className="inline-flex items-center transition easy-in-out delay-150 hover:translate-1 hover:scale-110 duration-300 justify-center w-full border-none bg-teal-800 hover:bg-teal-900 h-12 px-6 text-white text-md font-medium rounded-lg sm:w-auto sm:mb-0 accent_text btn-editable editable"
+                        href="/contact">
+                        Get Started
+                        <FontAwesomeIcon icon={faArrowRight} className="ml-1" />
+                    </a>
+                </div>
+            </div>
       <div className="max-w-6xl mx-auto pt-20 pb-20 lg:pt-[120px] lg:pb-[120px]">
         <div className="wow fadeInUp bg-white rounded-md" data-wow-delay=".2s" style={{ visibility: 'visible', animationDelay: '0.2s' }}>
           <div className="flex flex-wrap">
@@ -28,8 +48,8 @@ const AboutUs = () => {
                   <a href="#" className="inline-flex items-center justify-center rounded py-3 px-6 text-base font-semibold text-white transition duration-300 ease-in-out bg-teal-800 hover:bg-teal-900 hover:shadow-lg btn-"> Learn More </a>
                 </div>
                 <div className="text-center flex" style={{ maxWidth: '50%' }}>
-                  <div className="relative z-10 h-full">
-                    <img src={about_image} alt="image" className="mx-auto lg:ml-auto rounded-tr-md rounded-br-md h-full object-cover img-" />
+                  <div className=" z-10 h-full">
+                    <img src={about_image} alt="image" className="mx-auto lg:ml-auto rounded-tr-md rounded-br-md h-full object-cover" />
                   </div>
                 </div>
               </div>
@@ -44,16 +64,16 @@ const AboutUs = () => {
           <p className="text-base text-gray-700 md:text-lg  " data-content="product-descriptions">rm interior era is a well-known design company with a strong background in the design and construction industry. Focusing on residential design, RM Interiors Era offers affordable luxury for your home. We take a professional approach to each project, ensuring that every client can enjoy their new space.</p>
         </div>
         <div className="grid max-w-screen-lg gap-8 row-gap-5 mb-8 sm:grid-cols-2 lg:grid-cols-4 sm:mx-auto">
-          <div className="relative">
+          <div className="">
             <img className="object-cover w-full h-56 rounded shadow-lg img-" src={about_image2} alt="" />
           </div>
-          <div className="relative">
+          <div className="">
             <img className="object-cover w-full h-56 rounded shadow-lg img-" src={about_image3} alt="" />
           </div>
-          <div className="relative">
+          <div className="">
             <img className="object-cover w-full h-56 rounded shadow-lg img-" src={about_image4} alt="" />
           </div>
-          <div className="relative">
+          <div className="">
             <img className="object-cover w-full h-56 rounded shadow-lg img-" src={about_image5} alt="" />
           </div>
         </div>
