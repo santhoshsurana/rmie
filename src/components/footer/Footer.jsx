@@ -8,6 +8,7 @@ import { faPhone, faClock, faLocationDot, faEnvelope } from '@fortawesome/free-s
 const Footer = () => {
   return (
     <footer className='bg-teal-50'>
+      <hr className='bg-teal-900 h-2' />
       <div className='container p-8 mx-auto'>
         <div className='flex flex-wrap md:text-left text-center text-gray-700 order-first'>
           <div className='lg:w-1/3 md:w-1/2 w-full px-4'>
@@ -18,8 +19,7 @@ const Footer = () => {
               <FontAwesomeIcon icon={faLocationDot} className='px-2 text-teal-900' size='lg' />3-17-47/12, Near Chaitanya Godavari Grameena Bank, Sri Lakshmi Nagar, Gudarigunta, Kakinada, Andhrapradesh-533001.</p>
             <a className='py-2 pl-4' href='mailto:info@rminteriorsera.com'><FontAwesomeIcon icon={faEnvelope} className='px-2 text-teal-900' size='lg' /> info@rminteriorsera.com</a><br />
             <a className='py-2 pl-4' href='tel:+91 9507776777'>
-              <FontAwesomeIcon icon={faPhone} className='px-2 text-teal-900' size='lg' />+91 9507776777</a>
-
+              <FontAwesomeIcon icon={faPhone} className='px-2 text-teal-900' size='lg' />+91 9507776777,</a>
             <a className='py-2 pl-4' href='tel:+91 9581176777'>+91 9581176777</a>
             <p className='py-2 pl-4'><FontAwesomeIcon icon={faClock} className='px-2 text-teal-900' size='lg' />Monday - Sat 09:00 AM to 06:00 PM, <br />Sunday Closed</p>
             <div className=''>
@@ -158,16 +158,16 @@ const Footer = () => {
             <a href='https://satien.in' rel='noopener noreferrer' className='text-teal-900 ml-1 font-bold hover:text-red-600' target='_blank'>Satien.in</a>
           </p>
           <span className='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
-            <a className='text-gray-500 hover:animate-bounce' href='http://facebook.com/'>
+            <a className='transition easy-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' href='http://facebook.com/rminteriorsera'>
               <FontAwesomeIcon icon={faFacebook} className='text-teal-900 hover:text-blue-800' size='xl' />
             </a>
-            <a className='ml-3 text-gray-500 hover:animate-bounce' href='http://facebook.com/'>
+            <a className='ml-3 transition easy-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' href='https://twitter.com/rminteriorsera'>
               <FontAwesomeIcon icon={faTwitter} className='text-teal-900 hover:text-sky-600' size='xl' />
             </a>
-            <a className='ml-3 text-gray-500 hover:animate-bounce' href='http://facebook.com/'>
+            <a className='ml-3 transition easy-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' href='https://www.instagram.com/rminteriorsera'>
               <FontAwesomeIcon icon={faInstagram} className='text-teal-900 hover:text-pink-800' size='xl' />
             </a>
-            <a className='ml-3 text-gray-500 hover:animate-bounce' href='http://facebook.com/'>
+            <a className='ml-3 transition easy-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' href='https://www.youtube.com/@rminteriorsera'>
               <FontAwesomeIcon icon={faYoutube} className='text-teal-900 hover:text-red-700' size='xl' />
             </a>
           </span>
