@@ -7,7 +7,7 @@ const clientHeight = window.innerHeight;
 
 const Contact = () => {
   return (
-    <section className="text-gray-600 body-font relative" id="contact">
+    <section className="text-gray-600 body-font relative top-0" id="contact">
       <div className="absolute inset-0 bg-gray-300">
         <iframe width="100%" height="100%" title="map" frameBorder="0" marginHeight="0" marginWidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=RM+INTERIORS+Era&ie=UTF8&t=&z=18&iwloc=B&output=embed" style={{ filter: 'grayscale(0)  contrast(0.8) opacity(1)' }} />
       </div>

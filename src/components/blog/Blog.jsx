@@ -28,7 +28,7 @@ const Blog = () => {
                   <li>Functionality: Scandinavian design prioritizes functionality over form, so every element in a space serves a purpose.</li>
                 </ul>
               
-              <a className="text-blue-500 inline-flex items-center mt-4">
+              <a className="text-teal-500 inline-flex items-center mt-4">
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -67,7 +67,7 @@ Use pops of color: While the color palette of mid-century modern style is predom
 
 Embrace organic shapes: Mid-century modern style is known for its use of organic, curving shapes. Look for furniture and accessories with rounded edges and curved lines to add a sense of movement to your space.
               </p>
-              <a className="text-blue-500 inline-flex items-center mt-4">
+              <a className="text-teal-500 inline-flex items-center mt-4">
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"
@@ -102,7 +102,7 @@ Embrace organic shapes: Mid-century modern style is known for its use of organic
     <li>Decorative details: Art deco design is all about the details. Look for furniture and accessories with intricate patterns and decorative details to add a sense of drama to your space.</li>
     <li>Mix and match styles: Art deco design often incorporates elements from other styles, such as classical and modern. Mix and match different styles to create a unique and eclectic look.</li>
   </ul>
-              <a className="text-blue-500 inline-flex items-center mt-4">
+              <a className="text-teal-500 inline-flex items-center mt-4">
                 Learn More
                 <svg
                   className="w-4 h-4 ml-2"

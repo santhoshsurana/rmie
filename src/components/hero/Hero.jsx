@@ -25,13 +25,15 @@ const images = [
 ]
 
 const clientHeight = window.innerHeight;
+
 const Hero = () => {
     return (
-        <section className="absolute top-0 w-full left-0  mx-auto">
+        <section className="absolute -z-10 top-0 w-full left-0  mx-auto">
             <div className="mx-auto text-center">
                 <ImageSlider width='100%' height={clientHeight} autoPlay='true' loop='true' images={images} autoPlayDelay='1' slideDuration='0.3' showBullets={true} showNavs={false} />
             </div>
         </section>
+
 
     )
 }

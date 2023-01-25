@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
@@ -9,25 +8,41 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
-import Services from "./components/services/Services";
+import Services from "./components/pages/Services";
 import Blog from "./components/blog/Blog";
 import Portfolio from "./components/portfolio/Portfolio";
 
 //All event components 
-import WhatsappButton from "./components/event/WhatsappButton";
-import ScrollButton from "./components/event/ScrollButton";
+import WhatsAppButton from "./components/buttons/WhatsAppButton";
+import ScrollButton from "./components/buttons/ScrollButton";
+
 //All services components 
-import Concept from "./components/services/Concept";
-import Sofa from "./components/services/Sofa";
-import Office from "./components/services/Office";
-import Kitchen from "./components/services/Kitchen";
-import Wardrobe from "./components/services/Wardrobe";
-import Ceiling from "./components/services/Ceiling";
-import Fixture from "./components/services/Fixture";
-import Living from "./components/services/Living";
-import Bedroom from "./components/services/Bedroom";
-import Space from "./components/services/Space";
-import whatsappButton from "./components/event/ScrollButton";
+import Concept from "./components/pages/Concept";
+import Sofa from "./components/pages/Sofa";
+import Office from "./components/pages/Office";
+import Kitchen from "./components/pages/Kitchen";
+import Wardrobe from "./components/pages/Wardrobe";
+import Ceiling from "./components/pages/Ceiling";
+import Fixture from "./components/pages/Fixture";
+import Living from "./components/pages/Living";
+import Bedroom from "./components/pages/Bedroom";
+import Space from "./components/pages/Space";
+
+//All style components
+import Bohemian from "./components/pages/Bohemian";
+import Transitional from "./components/pages/Transitional";
+import Traditional from "./components/pages/Traditional";
+import Scandinavian from "./components/pages/Scandinavian";
+import Contemporary from "./components/pages/Contemporary";
+import Coastal from "./components/pages/Costal";
+import FreanchCountry from "./components/pages/FrenchCountry";
+import Hollwood from "./components/pages/Hollywood";
+import Industrial from "./components/pages/Industrial";
+import MidCentuary from "./components/pages/MidCentuary";
+import Minimalist from "./components/pages/Minimalist";
+import Modern from "./components/pages/Modern";
+import Rustic from "./components/pages/Rustic";
+import ShabbyChic from "./components/pages/ShabbyChic";
 
 const App = () => {
   return (
@@ -55,10 +70,25 @@ const App = () => {
           <Route path="/space" element={<Space />} />
           <Route path="/bedroom" element={<Bedroom />} />
           <Route path="/living" element={<Living />} />
+
+          <Route path="/bohemian" element={<Bohemian />} />
+          <Route path="/transitional" element={<Transitional />} />
+          <Route path="/traditional" element={<Traditional />} />
+          <Route path="/scandinavian" element={<Scandinavian />} />
+          <Route path="/minimalist" element={<Minimalist />} />
+          <Route path="/rustic" element={<Rustic />} />
+          <Route path="/coastal" element={<Coastal />} />
+          <Route path="/midcentuary" element={<MidCentuary />} />
+          <Route path="/shabbychic" element={<ShabbyChic />} />
+          <Route path="/industrial" element={<Industrial />} />
+          <Route path="/hollywood" element={<Hollwood />} />
+          <Route path="/frenchcountry" element={<FreanchCountry />} />
+          <Route path="/modern" element={<Modern />} />
+          <Route path="/contemporary" element={<Contemporary />} />
         </Routes>
         <Footer />
       </Router>   
-      <WhatsappButton />
+      <WhatsAppButton />
       <ScrollButton />   
     </>
   )
