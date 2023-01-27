@@ -3,16 +3,39 @@ import './portfolio.css';
 
 const Portfolio = () => {
   return (
-    <section className="flex-col justify-center flex gap-4 items-start py-12 bg-teal-50" id="portfolio">
-      <div className="w-full mx-auto">
-          <div className="mx-auto max-w-7xl">
-            <div className="mb-16 text-center">
-              <h2 className="text-base text-teal-800 font-semibold tracking-wide uppercase accent_text editable">Portfolio</h2>
-              <p className="mt-2 text-3xl leading-8 font-bold tracking-tight text-black dark:text-black sm:text-4xl primary_text section_title editable" data-content="website-headlines">World Class Interior Design Serivices</p>
+    <section className="text-gray-600 body-font">
+      <div className="container px-5 py-24 mx-auto flex flex-wrap">
+        <div className="flex w-full mb-20 flex-wrap">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Creating Beautiful and Functional Spaces: A Look at Our Interior Design Portfolio</h1>
+          <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Our portfolio showcases a variety of projects, from residential homes to commercial spaces, including living rooms, bedrooms, bathrooms, kitchens, offices, and more. We specialize in creating cohesive and elegant designs that seamlessly blend different elements such as color, texture, and lighting.</p>
+        </div>
+        <div className="flex flex-wrap md:-m-2 -m-1">
+          <div className="flex flex-wrap w-1/2">
+            <div className="md:p-2 p-1 w-1/2">
+              <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://dummyimage.com/500x300" />
+            </div>
+            <div className="md:p-2 p-1 w-1/2">
+              <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://dummyimage.com/501x301" />
+            </div>
+            <div className="md:p-2 p-1 w-full">
+              <img alt="gallery" className="w-full h-full object-cover object-center block" src="https://dummyimage.com/600x360" />
             </div>
           </div>
+          <div className="flex flex-wrap w-1/2">
+            <div className="md:p-2 p-1 w-full">
+              <img alt="gallery" className="w-full h-full object-cover object-center block" src="https://dummyimage.com/601x361" />
+            </div>
+            <div className="md:p-2 p-1 w-1/2">
+              <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://dummyimage.com/502x302" />
+            </div>
+            <div className="md:p-2 p-1 w-1/2">
+              <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://dummyimage.com/503x303" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
   )
 }
 

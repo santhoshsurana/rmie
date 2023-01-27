@@ -23,7 +23,7 @@ const ScrollButton = () => {
     <>
     {
     showTopBtn && (
-      <div className="hover:animate-bounce  w-10 h-10 bg-teal-900 py-[4px] px-[4px] z-30 rounded-full fixed bottom-36 cursor-pointer right-2">
+      <div className="hover:animate-bounce  w-10 h-10 bg-teal-900 py-[4px] px-[4px] z-20 rounded-full fixed bottom-36 cursor-pointer right-2">
         <FontAwesomeIcon icon={faCircleArrowUp} className='text-white' onClick={goToTop} size='2x' />
       </div>
     )

@@ -11,38 +11,39 @@ import Contact from "./components/contact/Contact";
 import Services from "./components/pages/Services";
 import Blog from "./components/blog/Blog";
 import Portfolio from "./components/portfolio/Portfolio";
+import PageNotFound from "./components/404Page"
 
 //All event components 
 import WhatsAppButton from "./components/buttons/WhatsAppButton";
 import ScrollButton from "./components/buttons/ScrollButton";
 
 //All services components 
-import Concept from "./components/pages/Concept";
-import Sofa from "./components/pages/Sofa";
-import Office from "./components/pages/Office";
-import Kitchen from "./components/pages/Kitchen";
-import Wardrobe from "./components/pages/Wardrobe";
-import Ceiling from "./components/pages/Ceiling";
-import Fixture from "./components/pages/Fixture";
-import Living from "./components/pages/Living";
-import Bedroom from "./components/pages/Bedroom";
-import Space from "./components/pages/Space";
+import Concept from "./components/pages/services/Concept";
+import Sofa from "./components/pages/services/Sofa";
+import Office from "./components/pages/services/Office";
+import Kitchen from "./components/pages/services/Kitchen";
+import Wardrobe from "./components/pages/services/Wardrobe";
+import Ceiling from "./components/pages/services/Ceiling";
+import Fixture from "./components/pages/services/Fixture";
+import Living from "./components/pages/services/Living";
+import Bedroom from "./components/pages/services/Bedroom";
+import Space from "./components/pages/services/Space";
 
 //All style components
-import Bohemian from "./components/pages/Bohemian";
-import Transitional from "./components/pages/Transitional";
-import Traditional from "./components/pages/Traditional";
-import Scandinavian from "./components/pages/Scandinavian";
-import Contemporary from "./components/pages/Contemporary";
-import Coastal from "./components/pages/Costal";
-import FreanchCountry from "./components/pages/FrenchCountry";
-import Hollwood from "./components/pages/Hollywood";
-import Industrial from "./components/pages/Industrial";
-import MidCentuary from "./components/pages/MidCentuary";
-import Minimalist from "./components/pages/Minimalist";
-import Modern from "./components/pages/Modern";
-import Rustic from "./components/pages/Rustic";
-import ShabbyChic from "./components/pages/ShabbyChic";
+import Bohemian from "./components/pages/styles/Bohemian";
+import Transitional from "./components/pages/styles/Transitional";
+import Traditional from "./components/pages/styles/Traditional";
+import Scandinavian from "./components/pages/styles/Scandinavian";
+import Contemporary from "./components/pages/styles/Contemporary";
+import Coastal from "./components/pages/styles/Costal";
+import FreanchCountry from "./components/pages/styles/FrenchCountry";
+import Hollwood from "./components/pages/styles/Hollywood";
+import Industrial from "./components/pages/styles/Industrial";
+import MidCentuary from "./components/pages/styles/MidCentuary";
+import Minimalist from "./components/pages/styles/Minimalist";
+import Modern from "./components/pages/styles/Modern";
+import Rustic from "./components/pages/styles/Rustic";
+import ShabbyChic from "./components/pages/styles/ShabbyChic";
 
 const App = () => {
   return (
@@ -85,6 +86,7 @@ const App = () => {
           <Route path="/frenchcountry" element={<FreanchCountry />} />
           <Route path="/modern" element={<Modern />} />
           <Route path="/contemporary" element={<Contemporary />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
         <Footer />
       </Router>   

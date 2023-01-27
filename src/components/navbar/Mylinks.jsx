@@ -1,46 +1,49 @@
 export const links = [
-  {
-    name: "Styles",
-    submenu: true,
-    sublinks: [
-      {
-        Head: "Styles",
-        sublink: [
-          { name: 'Bohemian', link: '/Bohemian ' },
-          { name: 'Transitional', link: '/Transitional ' },
-          { name: 'Traditional', link: '/Traditional ' },
-          { name: 'Scandinavian', link: '/Scandinavian ' },
-          { name: 'Minimalist', link: '/Minimalist ' },
-          { name: 'Rustic', link: '/Rustic ' },
-          { name: 'Coastal', link: '/Coastal ' },
-          { name: 'Midcentuary', link: '/MidCentuary ' },
-          { name: 'Shabbychic', link: '/ShabbyChic ' },
-          { name: 'Industrial', link: '/Industrial ' },
-          { name: 'Hollywood', link: '/Hollywood ' },
-          { name: 'Frenchcountry', link: '/FrenchCountry ' },
-          { name: 'Modern', link: '/Modern ' },
-          { name: 'Contemporary', link: '/Contemporary ' }
-        ],
-      },
-    ],
-  },
+  
   {
     name: "Services",
     submenu: true,
     sublinks: [
       {
-        Head: "Services",
+        head: "Services",
+        link: "services",
         sublink: [
-          { name: 'Sofa', link: '/Sofa' },
-          { name: 'Concept', link: '/Concept' },
-          { name: 'Office', link: '/Office' },
-          { name: 'Kitchen', link: '/Kitchen' },
-          { name: 'Wardrobe', link: '/Wardrobe' },
-          { name: 'Ceiling', link: '/Ceiling' },
-          { name: 'Fixture', link: '/Fixture' },
-          { name: 'Living', link: '/Living' },
-          { name: 'Bedroom', link: '/Bedroom' },
-          { name: 'Space', link: '/Space' },
+          { name: 'Sofa Making For Homes and Offices', link: '/Sofa' },
+          { name: 'Interior Concept Design and Development', link: '/Concept' },
+          { name: 'Commercial Spaces and Office Interior Design', link: '/Office' },
+          { name: 'Modular Kitchen Interior Design and Development', link: '/Kitchen' },
+          { name: 'Wardrobe and Cupboards Design and Development', link: '/Wardrobe' },
+          { name: 'False Ceiling Work And Tiling as per the Concept', link: '/Ceiling' },
+          { name: 'Fixture and Furniture Design and Making', link: '/Fixture' },
+          { name: 'Living Room Interior Design and Development', link: '/Living' },
+          { name: 'Bedroom Interior Design and Development', link: '/Bedroom' },
+          { name: 'Space Planing Using 2D Layouts and 3D modeling', link: '/Space' },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Styles",
+    submenu: true,
+    sublinks: [
+      {
+        head: "Styles",
+        link: "styles",
+        sublink: [
+          { name: 'Bohemian Interior Design', link: '/Bohemian ' },
+          { name: 'Transitional Interior Design', link: '/Transitional ' },
+          { name: 'Traditional Interior Design', link: '/Traditional ' },
+          { name: 'Scandinavian Interior Design', link: '/Scandinavian ' },
+          { name: 'Minimalist Interior Design', link: '/Minimalist ' },
+          { name: 'Rustic Interior Design', link: '/Rustic ' },
+          { name: 'Coastal Interior Design', link: '/Coastal ' },
+          { name: 'Midcentuary Interior Design', link: '/MidCentuary ' },
+          { name: 'Shabbychic Interior Design', link: '/ShabbyChic ' },
+          { name: 'Industrial Interior Design', link: '/Industrial ' },
+          { name: 'Hollywood Interior Design', link: '/Hollywood ' },
+          { name: 'Frenchcountry Interior Design', link: '/FrenchCountry ' },
+          { name: 'Modern Interior Design', link: '/Modern ' },
+          { name: 'Contemporary Interior Design', link: '/Contemporary ' }
         ],
       },
     ],

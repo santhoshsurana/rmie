@@ -7,16 +7,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark, faBars } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+ 
+
   return (
-    <nav className="bg-white z-10 px-4 py-2 mx-auto container w-full lg:rounded shadow-md">
-      <div className="flex sticky items-center text-sm justify-between">
+    <nav className="hover:bg-white duration-1000 bg-white md:bg-transparent text-teal-900 mb-2 z-10 px-4 mx-auto container w-full md:rounded-full md:shadow-md">
+      <div className="flex items-center text-md justify-between">
         <div className=" z-40 md:w-auto w-full flex justify-between">
           <a href="/"><img src={Logo} alt="logo" className="md:cursor-pointer h-14 md:h-8  w-auto" /></a>
-          <div className="items-center text-teal-900 p-2 md:hidden" onClick={() => setOpen(!open)}>
+          <div className="items-center p-2 md:hidden" onClick={() => setOpen(!open)}>
             <FontAwesomeIcon icon={open ? faXmark : faBars} size='3x'/>
           </div>
         </div>
-        <ul className="md:flex hidden uppercase text-teal-700 items-center gap-4">
+        <ul className="md:flex hidden  items-center gap-4">
           <li>
             <Link to="/" className="py-2 px-3 font-medium inline-block">
               Home
@@ -48,7 +50,7 @@ const Navbar = () => {
           <Button />
         </div>
         {/* Mobile nav */}
-        <ul className={`md:hidden bg-white opacity-95 text-2xl fixed w-full top-0 overflow-y-auto bottom-0 pt-24 pl-6 uppercase text-teal-700 font-bold duration-500 ${open ? "left-0" : "left-[-100%]"} `}>
+        <ul className={`md:hidden bg-white opacity-95 text-2xl fixed w-full top-0 overflow-y-auto bottom-0 pt-24 pl-6 uppercase  font-bold duration-500 ${open ? "left-0" : "left-[-100%]"} `}>
         <li>
             <Link to="/" className="py-2 px-3  inline-block">
               Home

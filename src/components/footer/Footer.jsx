@@ -8,7 +8,7 @@ import { faPhone, faClock, faLocationDot, faEnvelope } from '@fortawesome/free-s
 const Footer = () => {
   return (
     <footer className='bg-teal-50'>
-      <hr className='bg-teal-900 h-2' />
+      <hr className='bg-teal-900 h-4 border-0' />
       <div className='container p-8 mx-auto'>
         <div className='flex flex-wrap md:text-left text-center text-gray-600 order-first'>
           <div className='lg:w-1/3 md:w-1/2 w-full px-4 text-sm '>
@@ -67,37 +67,39 @@ const Footer = () => {
               <div>
                 <h2 className='transition easy-in-out delay-150 hover:translate-y-0.5 hover:scale-110 duration-300 title-font font-semibold uppercase text-gray-900 tracking-widest text-md mb-3'>Services</h2>
                 <nav className='list-none'>
-                  <li className="pb-1">
-                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm' href='/concept'>Concept Design</a>
+                <li className="pb-1">
+                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm ' href='/sofa'>Sofa Making</a>
                   </li>
                   <li className="pb-1">
-                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm' href='/office'>Commercial Spaces</a>
+                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm' href='/office'>Commercial Interiors</a>
                   </li>
                   <li className="pb-1">
-                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm ' href='/kitchen'>Modular Kitchen</a>
+                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm' href='/concept'>2D and 3D Layouts</a>
+                  </li>
+                  
+                  <li className="pb-1">
+                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm ' href='/kitchen'>Modular Kitchens</a>
                   </li>
                   <li className="pb-1">
-                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm ' href='/space'>Space planing</a>
+                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm ' href='/space'>Space Planning</a>
+                  </li>
+                  
+                  <li className="pb-1">
+                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm ' href='/wardrobe'>Wardrobes & Cupboards</a>
                   </li>
                   <li className="pb-1">
-                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm ' href='/sofa'>Sofa making</a>
-                  </li>
-                  <li className="pb-1">
-                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm ' href='/wardrobe'>Wardrobe & Cupboards</a>
-                  </li>
-                  <li className="pb-1">
-                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm ' href='/ceiling'>False Ceiling & Tiling</a>
-                  </li>
-
-                  <li className="pb-1">
-                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm ' href='/fixture'>Fixtures & Furnatures</a>
-                  </li>
-                  <li className="pb-1">
-                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm ' href='/living'>Living room Design</a>
+                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm ' href='/ceiling'>False Ceiling</a>
                   </li>
 
                   <li className="pb-1">
-                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm ' href='/bedroom'>Bedroom Design</a>
+                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm ' href='/fixture'>Fixture & Furniture</a>
+                  </li>
+                  <li className="pb-1">
+                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm ' href='/living'>Living Room Interiors</a>
+                  </li>
+
+                  <li className="pb-1">
+                    <a className='title-font font-medium text-gray-600 tracking-widest text-sm ' href='/bedroom'>Bedroom Room Interiors</a>
                   </li>
                 </nav>
               </div>
