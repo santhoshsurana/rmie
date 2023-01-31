@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Navbar from '../navbar/Navbar';
 import './header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -6,21 +6,10 @@ import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const Header = () => {
-  const headerTag = document.getElementsByTagName('header');
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 400) {
-        headerTag.classList.add('sticky');
-        headerTag.firstChild.classList.add('bg-teal-900', 'text-white');
-      } else {
-        headerTag.classList.remove('sticky');
-        headerTag.firstChild.classList.remove('bg-teal-900', 'text-white');
-      }
-    });
-  });
+  
   
   return (
-    <header className='w-full top-0'>
+    <header className='w-full absolute top-0 z-10'>
       <div className='hover:bg-teal-900 text-teal-900 duration-1000 w-full hidden lg:block'>
         <div className='py-2 flex items-center hover:text-white container mx-auto  flex-cols'>
           <p className='text-md font-semibold '>

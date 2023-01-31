@@ -7,8 +7,8 @@ import post_img3 from "../../assets/images/photo-1586023492125-27b2c045efd7.webp
 
 const Posts = () => {
   return (
-    <section id="blog">
-      <div className="pt-14 pb-8 mx-auto max-w-6xl">
+    <section className="max-w-6xl mx-auto px-8">
+      <div className="pt-14 pb-8">
         <h3 className="mb-2 text-center leading-10 text-4xl font-bold text-black tracking-tight primary_text editable">Latest
           Posts</h3>
         <div className="px-0 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
