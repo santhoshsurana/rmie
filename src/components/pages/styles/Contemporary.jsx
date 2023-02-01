@@ -4,7 +4,7 @@ import bohemian1 from "../../../assets/images/bohemian1.jpg";
 const Contemporary = () => {
   return (
     <section className="max-w-6xl mx-auto">
-      <h2 className="mb-6 text-3xl p-5 font-bold">Contemporary Interior<span className="text-teal-900"> Design and Development</span></h2>
+      <h2 className="px-10 py-4 mt-20  md:text-3xl text-xl font-bold">Contemporary Interior<span className="text-teal-900"> Design and Development</span></h2>
       <div className="flex flex-col md:flex-row">
         <div className=" md:w-2/3 px-10 leading-relaxed text-justify text-gray-600 font-normal bg-gray-50">
           <p className=" text-base p-5 " >Contemporary style of interior design is characterized by a sleek, modern, and minimalist aesthetic that is constantly evolving with the times. This style is all about creating a space that is clean, functional, and visually striking, with a focus on simplicity and functionality. One of the key elements of contemporary interior design is the use of clean lines and geometric shapes. This can be seen in the use of simple, unadorned furniture, as well as in the use of lines and angles in the architecture of the space. The focus on simplicity and functionality is also reflected in the use of minimal decor, with the emphasis on a few key pieces that make a strong statement. </p>

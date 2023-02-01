@@ -51,7 +51,7 @@ const App = () => {
 
       <Router>
         <Header />
-        <div className="mt-28"></div>
+        <div className="md:mt-28"></div>
         <Routes>
           <Route path="/" element={<Home />} exact />
           <Route path="/hero" element={<Hero />} />

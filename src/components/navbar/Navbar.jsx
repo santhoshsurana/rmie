@@ -9,12 +9,12 @@ const Navbar = () => {
 
 
   return (
-    <nav className="hover:bg-white duration-1000 bg-white md:bg-transparent text-teal-900 mb-2 px-4 mx-auto container w-full md:rounded-full md:shadow-md">
+    <nav className="hover:bg-white duration-1000 bg-white md:bg-transparent text-teal-900 mb-2 p-4 md:py-0 md:px-4 mx-auto container w-full md:rounded-full md:shadow-md">
       <div className="flex items-center text-md justify-between">
         <div className="  md:w-auto w-full flex justify-between">
-          <a href="/"><img src={Logo} alt="logo" className="md:cursor-pointer md:ml-10 h-12 md:h-14 md:py-2  w-auto" /></a>
+          <Link to="/"><img src={Logo} alt="logo" className="md:cursor-pointer md:ml-10 h-12 md:h-14 md:py-2  w-auto" /></Link>
           <div className="items-center p-2 md:hidden" onClick={() => setOpen(!open)}>
-            <FontAwesomeIcon icon={faBars} size='3x' />
+            <FontAwesomeIcon icon={faBars} size='2x' />
           </div>
         </div>
         <ul className="md:flex hidden  items-center gap-4">
@@ -54,34 +54,34 @@ const Navbar = () => {
 
 
 
-        <ul onClick={() => setOpen(!open)} className={`md:hidden bg-white opacity-100 text-md fixed w-full top-0 overflow-y-auto bottom-0  duration-500 ${open ? "left-0" : "left-[-100%]"} `}>
+        <ul className={`md:hidden bg-white opacity-100 text-md fixed w-full top-0 overflow-y-auto bottom-0  duration-500 ${open ? "left-0" : "left-[-100%]"} `}>
           <li className=" p-4"><div className="flex justify-between"><a href="/"><img src={Logo} alt="logo" className="md:cursor-pointer md:ml-10 h-12 md:h-14 md:py-2  w-auto" /></a>
             <div className="items-center p-2 md:hidden" onClick={() => setOpen(!open)}>
-              <FontAwesomeIcon icon={faXmark} size='3x' />
+              <FontAwesomeIcon icon={faXmark} size='2x' />
             </div></div></li>
           <li className="hover:bg-teal-900 p-2 font-bold hover:text-white">
-            <Link to="/" className="py-2 px-3  inline-block">
+            <Link to="/" onClick={() => setOpen(!open)} className="py-2 px-3  inline-block">
               Home
             </Link>
           </li>
           <li className="hover:bg-teal-900 p-2 font-bold hover:text-white">
-            <Link to="/about" className="py-2 px-3  inline-block">
+            <Link to="/about" onClick={() => setOpen(!open)} className="py-2 px-3  inline-block">
               About
             </Link>
           </li >
           <NavLinks />
           <li className="hover:bg-teal-900 p-2 font-bold hover:text-white">
-            <Link to="/portfolio" className="py-2 px-3  inline-block">
+            <Link to="/portfolio" onClick={() => setOpen(!open)} className="py-2 px-3  inline-block">
               Portfolio
             </Link>
           </li>
           <li className="hover:bg-teal-900 p-2 font-bold hover:text-white">
-            <Link to="/blog" className="py-2 px-3  inline-block">
+            <Link to="/blog" onClick={() => setOpen(!open)} className="py-2 px-3  inline-block">
               Blog
             </Link>
           </li>
           <li className="hover:bg-teal-900 p-2 font-bold hover:text-white">
-            <Link to="/contact" className="py-2 px-3  inline-block">
+            <Link to="/contact" onClick={() => setOpen(!open)} className="py-2 px-3  inline-block">
               Contact
             </Link>
           </li>

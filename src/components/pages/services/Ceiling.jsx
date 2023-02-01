@@ -8,7 +8,7 @@ const Ceiling = () => {
 
 
     <section className="max-w-6xl mx-auto">
-      <h2 className="mb-6 text-3xl p-5 font-bold ">False Ceiling Work<span className="text-teal-900"> And Tiling as per the Concept</span></h2>
+      <h2 className="px-10 py-4 mt-20  md:text-3xl text-xl font-bold ">False Ceiling Work<span className="text-teal-900"> And Tiling as per the Concept</span></h2>
       <div className="flex flex-col md:flex-row">
         <div className=" md:w-2/3  px-10 font-normal leading-relaxed text-justify text-gray-600  bg-gray-50">
           <p className=" text-base py-5 ">
@@ -19,18 +19,17 @@ const Ceiling = () => {
           </p>
         </div>
         <div className="my-auto md:w-1/3">
-          <img src={bohemian1} alt="ceiling" className="object-cover h-96 w-[600px]  " />
+          <img src={bohemian1} alt="ceiling" className="object-cover h-80  " />
         </div>
       </div>
 
       <div className="flex md:flex-row-reverse flex-col ">
-        <div className=" md:w-2/3 text-gray-600 font-normal  bg-teal-50">
+        <div className=" md:w-2/3  px-10 font-normal leading-relaxed text-justify text-gray-600  bg-teal-50">
           <p className="text-base leading-relaxed text-justify p-4  " >
           So if you're ready to update the look of your home or commercial space, consider our false ceiling and tiling services. Our team of expert designers will work with you to create a space that is both stylish and functional, tailored to your specific needs and preferences. Contact us today to learn more and schedule a consultation.
-
           </p>
         </div>
-        <div className=" my-auto  md:w-1/3"><img src={bohemian2} alt="bohemian style living room" className="object-cover h-96 w-[200px " /></div>
+        <div className=" my-auto  md:w-1/3"><img src={bohemian2} alt="bohemian style living room" className="object-cover h-64" /></div>
       
       </div>
     </section>

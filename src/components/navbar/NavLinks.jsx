@@ -6,11 +6,12 @@ import { links } from "./Mylinks";
 
 const NavLinks = () => {
   const [heading, setHeading] = useState("");
+  const [open, setOpen] = useState(false);
   return (
     <>
       {links.map((link) => (
-        <li key={link.name} className="md:cursor-pointer group md:p-0 p-2 ">
-          <Link  href={'/' + link.name} className="flex justify-between  items-center md:pr-0 pr-5 group hover:bg-teal-900 p-2 md:font-semibold font-bold hover:text-white md:hover:text-teal-900 md:hover:bg-transparent"
+        <li key={link.name} className="md:cursor-pointer group">
+          <Link  href={'/'+link.name} className="flex justify-between items-center md:pr-0 pr-5 group hover:bg-teal-900 md:p-2 p-4 md:font-semibold font-bold hover:text-white md:hover:text-teal-900 md:hover:bg-transparent"
             onClick={() => { heading !== link.name ? setHeading(link.name) : setHeading(""); }}>
             <span className="text-md ">{link.name}</span>
             <span className="text-md md:hidden inline">
@@ -24,7 +25,7 @@ const NavLinks = () => {
             <div className="bg-white mt-[6px] shadow-md grid grid-flow-row">
               {link.sublinks.map((slink) => (
                 <ul className="">
-                  <li key={slink.name} className="text-xs hover:bg-teal-900 p-2 font-semibold hover:text-white">
+                  <li key={slink.name} className="text-sm hover:bg-teal-900 p-2 font-semibold hover:text-white">
                     <Link  to={slink.link} className="px-2  inline-block">{slink.name}</Link>
                   </li>
                 </ul>
@@ -38,7 +39,7 @@ const NavLinks = () => {
               {/* sublinks */}
               {link.sublinks.map((slink) => (
                 <li key={slink.name} className="py-3 pl-4 hover:bg-teal-900 p-2 font-semibold hover:text-white">
-                  <Link to={slink.link}>{slink.name}</Link>
+                  <Link to={slink.link} >{slink.name}</Link>
                 </li>
               ))}
             </ul>

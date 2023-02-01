@@ -23,8 +23,7 @@ const Testimonials = () => {
               extensive list of case studies and customer testimonials.</p>
             <a href="#_" className="flex items-center justify-center px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-teal-800 border border-transparent rounded-md shadow hover:bg-teal-900 focus:outline-none btn-gray gray">View
               Case Studies</a>
-            <div className="w-96 h-96 mt-10 bg-teal-900  md:block hidden rounded-full"></div>
-            <img src={testimonial} alt="" className="md:rounded-full md:h-96 md:w-96 w-full object-cover md:absolute mt-10 md:mt-36 md:ml-4 " />
+            <img src={testimonial} alt="" className="md:rounded-full md:h-96 md:w-96 w-full border-[14px] border-white shadow-teal-900 shadow-2hxl object-cover  mt-10  " />
           </div>
           <div className="w-full lg:w-1/2">
             <blockquote className="flex items-center justify-between w-full col-span-1 p-6 bg-white rounded-lg shadow">
