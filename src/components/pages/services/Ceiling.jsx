@@ -1,6 +1,7 @@
 import React from "react";
-import bohemian1 from "../../../assets/images/bohemian1.jpg";
-import bohemian2  from "../../../assets/images/bohemian2.jpg";
+import ceiling1 from "../../../assets/images/ceiling1.jpg";
+import ceiling2  from "../../../assets/images/ceiling2.jpg";
+import ceiling3  from "../../../assets/images/ceiling3.jpg";
 
 
 const Ceiling = () => {
@@ -8,7 +9,9 @@ const Ceiling = () => {
 
 
     <section className="max-w-6xl mx-auto">
-      <h2 className="px-10 py-4 mt-20  md:text-3xl text-xl font-bold ">False Ceiling Work<span className="text-teal-900"> And Tiling as per the Concept</span></h2>
+      <img src={ceiling1} alt="ceiling" className="w-full h-32  mt-20 object-cover " />
+
+      <h2 className="px-10 py-4  md:text-3xl text-xl font-bold ">False Ceiling Work<span className="text-teal-900"> And Tiling as per the Concept</span></h2>
       <div className="flex flex-col md:flex-row">
         <div className=" md:w-2/3  px-10 font-normal leading-relaxed text-justify text-gray-600  bg-gray-50">
           <p className=" text-base py-5 ">
@@ -19,7 +22,7 @@ const Ceiling = () => {
           </p>
         </div>
         <div className="my-auto md:w-1/3">
-          <img src={bohemian1} alt="ceiling" className="object-cover h-80  " />
+          <img src={ceiling3} alt="ceiling" className="object-cover h-80  " />
         </div>
       </div>
 
@@ -29,7 +32,7 @@ const Ceiling = () => {
           So if you're ready to update the look of your home or commercial space, consider our false ceiling and tiling services. Our team of expert designers will work with you to create a space that is both stylish and functional, tailored to your specific needs and preferences. Contact us today to learn more and schedule a consultation.
           </p>
         </div>
-        <div className=" my-auto  md:w-1/3"><img src={bohemian2} alt="bohemian style living room" className="object-cover h-64" /></div>
+        <div className=" my-auto  md:w-1/3"><img src={ceiling2} alt="ceiling style living room" className="object-cover h-64" /></div>
       
       </div>
     </section>

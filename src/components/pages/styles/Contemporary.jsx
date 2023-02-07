@@ -1,5 +1,6 @@
 import React from "react";
-import bohemian1 from "../../../assets/images/bohemian1.jpg";
+import contemporary1 from "../../../assets/images/contemporary1.jpg";
+import contemporary2 from "../../../assets/images/contemporary2.jpg";
 
 const Contemporary = () => {
   return (
@@ -11,7 +12,7 @@ const Contemporary = () => {
           <p className=" text-base p-5 " >Another important aspect of contemporary interior design is the use of neutral colors, such as white, gray, and black. These colors create a sense of simplicity and open space, making the room feel larger and more airy. In addition, contemporary design often incorporates industrial materials such as concrete, steel, and glass, which add a sense of strength and modernity to the space.</p>
         </div>
         <div className="md:w-1/3">
-          <img src={bohemian1} alt="bohemian style living room" className="object-cover h-96 " />
+          <img src={contemporary1} alt="contemporary style living room" className="object-cover  h-96 w-full" />
         </div>
       </div>
       <div className="flex md:flex-row-reverse flex-col">
@@ -20,7 +21,7 @@ const Contemporary = () => {
         <p className=" text-base p-5 " >Overall, contemporary interior design is all about creating a space that is clean, functional, and visually striking. By using a minimal color palette, industrial materials, and clean lines, contemporary design creates a space that is both beautiful and practical. It's a perfect style for those who love minimalism, modernity and want to keep their space clean and uncluttered. Contemporary design is a constantly evolving and adapting to new trends and technology. It's a style that is always pushing the boundaries of design and constantly seeking new ways to improve the functionality and aesthetic of a space.</p>
         </div>
         <div className="md:w-1/3">
-          <img src={bohemian1} alt="bohemian style living room" className="object-cover  h-[420px]" />
+          <img src={contemporary2} alt="contemporary style living room" className="object-cover  h-96 w-full" />
         </div>
       </div>
     </section>

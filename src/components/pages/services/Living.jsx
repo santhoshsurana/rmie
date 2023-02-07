@@ -1,7 +1,8 @@
 import React from "react";
 
-import bohemian1 from "../../../assets/images/bohemian1.jpg";
-import bohemian2  from "../../../assets/images/bohemian2.jpg";
+import living1 from "../../../assets/images/living1.webp";
+import living2  from "../../../assets/images/living2.jpg";
+import living3  from "../../../assets/images/living3.jpg";
 
 const Living = () => {
   return (
@@ -14,7 +15,7 @@ const Living = () => {
         <p className=" text-base py-5" >We offer a wide range of services, including furniture selection, color consultation, lighting design, and more. We'll take care of everything from start to finish, so you can sit back and relax while we transform your living room into the space of your dreams. Our team is dedicated to providing you with the highest level of customer service, and we'll be there every step of the way to ensure that you're completely satisfied with the final result. Don't wait any longer, contact us today to schedule a consultation and let us help you create the living room of your dreams!</p>
         </div>
         <div className="my-auto md:w-1/3">
-          <img src={bohemian1} alt="ceiling" className="object-cover h-80  " />
+          <img src={living1} alt="ceiling" className="object-cover h-96  " />
         </div>
       </div>
       <div className="flex flex-col md:flex-row-reverse">
@@ -24,7 +25,7 @@ const Living = () => {
         <p className=" text-base py-5" >Our furniture selection service includes sourcing high-quality, stylish furniture that not only looks great but is also comfortable and functional. We'll help you choose the perfect pieces that fit your space and bring your living room to life. Our color consultation service includes working with you to choose the perfect paint colors, fabrics, and other materials that will bring your living room to life. We'll help you create a color scheme that complements your furniture and creates a cohesive look throughout the space. Our lighting design service includes selecting the perfect lighting fixtures to create the perfect ambiance in your living room. We'll help you choose the right type of lighting to suit your needs, whether you're looking for task lighting, ambient lighting, or accent lighting.</p>
         </div>
         <div className="my-auto md:w-1/3">
-          <img src={bohemian1} alt="ceiling" className="object-cover h-80  " />
+          <img src={living2} alt="ceiling" className="object-cover h-96  " />
         </div>
       </div>
       <div className="flex flex-col md:flex-row">
@@ -32,7 +33,7 @@ const Living = () => {
         <p className=" text-base py-5" >Finally, we offer a full installation service, where our team of experts will take care of everything from start to finish. We'll install all of your new furniture, paint your walls, and install your new lighting fixtures, so you can sit back and relax while we do all the hard work. In summary, our living room interior design service is tailored to suit your individual needs and preferences. We'll work closely with you to create a design plan that fits your style and budget, and take care of everything from start to finish, so you can sit back and relax while we transform your living room into the space of your dreams.</p>
         </div>
         <div className="my-auto md:w-1/3">
-          <img src={bohemian1} alt="ceiling" className="object-cover h-80  " />
+          <img src={living3} alt="ceiling" className="object-cover h-72  " />
         </div>
       </div>
     </section>

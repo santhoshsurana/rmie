@@ -1,5 +1,6 @@
 import React from "react";
-import bohemian1 from "../../../assets/images/bohemian1.jpg";
+import coastal1 from "../../../assets/images/coastal.webp";
+import coastal2 from "../../../assets/images/coastal2.jpg";
 
 const Coastal = () => {
   return (
@@ -13,7 +14,7 @@ const Coastal = () => {
           <p className=" text-base py-5">Another important aspect of Coastal/Hamptons interior design is the use of light colors such as white, beige, and blue. These colors are often used in combination with natural patterns such as stripes, plaids, and florals. The use of light colors and patterns gives a coastal interior a sense of lightness and airiness. In terms of decor, Coastal/Hamptons interior design often incorporates a mix of vintage and modern pieces. For example, a vintage mirror might be hung above a modern sofa or a vintage chandelier might be paired with contemporary art. The key is to create a sense of balance and harmony in the space.</p>
         </div>
         <div className="my-auto md:w-1/3">
-          <img src={bohemian1} alt="bohemian style living room" className="object-cover  h-96 " />
+          <img src={coastal1} alt="coastal style living room" className="object-cover  h-96 " />
         </div>
       </div>
 
@@ -24,7 +25,7 @@ const Coastal = () => {
           <p className=" text-base py-5">Overall, Coastal/Hamptons interior design is all about creating a space that is both comfortable and inviting, with a focus on natural materials, light colors, and a sense of coastal living. By using light colors, natural materials, and a mix of vintage and modern pieces, Coastal/Hamptons design creates a space that is both beautiful and practical. It's a perfect style for those who want to create a space that is relaxed, light, and airy and that reflects the beach and coastal lifestyle. Coastal/Hamptons style is characterized by its breezy atmosphere, it's a style that is perfect for those who want to create a space that is comfortable, inviting, and evocative of the coast.
           </p>
         </div>
-        <div className="my-auto md:w-1/3"><img src={bohemian1} alt="bohemian style living room" className="object-cover  h-96 " /></div>
+        <div className="my-auto md:w-1/3"><img src={coastal2} alt="coastal style living room" className="object-cover  h-96 " /></div>
       </div>
     </section>
   )

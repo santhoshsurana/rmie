@@ -1,14 +1,14 @@
 import React from "react";
 
-import bohemian1 from "../../../assets/images/bohemian1.jpg";
-import bohemian2 from "../../../assets/images/bohemian2.jpg";
-import bohemian3 from "../../../assets/images/bohemian3.jpg";
+import bohemian1 from "../../../assets/images/hollywood1.jpg";
+import bohemian3 from "../../../assets/images/hollywood2.webp";
+import bohemian2 from "../../../assets/images/hollywood3.jpg";
 
 const Hollwood = () => {
   return (
 
     <section className="max-w-6xl mx-auto">
-      <h2 className="px-10 py-4 mt-20  md:text-3xl text-xl font-bold ">Hollwood Interior<span className="text-teal-900"> Design and Development</span></h2>
+      <h2 className="px-10 py-4 mt-20  md:text-3xl text-xl font-bold ">Hollywood Interior<span className="text-teal-900"> Design and Development</span></h2>
       <div className="flex flex-col md:flex-row">
         <div className=" md:w-2/3  px-10 font-normal leading-relaxed text-justify text-gray-600  bg-gray-50">
           <p className=" text-base py-5">
@@ -46,7 +46,7 @@ const Hollwood = () => {
 
           </p>
         </div>
-        <div className="my-auto md:w-1/3"><img src={bohemian3} alt="bohemian style living room" className="object-cover  h-96 " /></div>
+        <div className="my-auto md:w-1/3"><img src={bohemian3} alt="bohemian style living room" className="object-cover  h-80 " /></div>
       </div>
     </section>
 

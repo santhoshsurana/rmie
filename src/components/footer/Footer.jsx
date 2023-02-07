@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './footer.css';
 import footerLogo from "../../assets/images/rmlogo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,21 +13,21 @@ const Footer = () => {
       <div className='container p-8 mx-auto'>
         <div className='flex flex-wrap md:text-left text-center text-gray-600 order-first'>
           <div className='lg:w-1/3 md:w-1/2 w-full px-4 text-sm '>
-            <a href='/' className='flex  font-medium items-center md:justify-start justify-center text-gray-900 mb-4'>
+            <Link to='/' className='flex  font-medium items-center md:justify-start justify-center text-gray-900 mb-4'>
               <img src={footerLogo} alt="" className='w-72' srcSet="" />
-            </a>
+            </Link>
             <p className='py-2 pl-4'>
               <FontAwesomeIcon icon={faLocationDot} className='px-2 text-teal-900' size='lg' />3-17-47/12, Near Chaitanya Godavari Grameena Bank, Sri Lakshmi Nagar, Gudarigunta, Kakinada, Andhrapradesh-533001.
             </p>
 
             <p>
-              <a className='py-2 pl-4' href='mailto:info@rminteriorsera.com'><FontAwesomeIcon icon={faEnvelope} className='px-2 text-teal-900' size='lg' /> info@rminteriorsera.com</a>
+              <Link className='py-2 pl-4' to='mailto:info@rminteriorsera.com'><FontAwesomeIcon icon={faEnvelope} className='px-2 text-teal-900' size='lg' /> info@rminteriorsera.com</Link>
             </p>
 
             <p className='py-2 pl-4'>
-              <a href='tel:+91 9507776777'>
-                <FontAwesomeIcon icon={faPhone} className='px-2 text-teal-900' size='lg' />+91 9507776777,</a>
-              <a href='tel:+91 9581176777'>+91 9581176777</a></p>
+              <Link to='tel:+91 9507776777'>
+                <FontAwesomeIcon icon={faPhone} className='px-2 text-teal-900' size='lg' />+91 9507776777,</Link>
+              <Link to='tel:+91 9581176777'>+91 9581176777</Link></p>
 
             <p className='py-2 pl-4'>
               <FontAwesomeIcon icon={faClock} className='px-2 text-teal-900' size='lg' />
@@ -47,22 +48,22 @@ const Footer = () => {
                 <h2 className='transition easy-in-out delay-150 hover:translate-y-0.5 hover:scale-110 duration-300 font-semibold text-gray-900 uppercase tracking-widest text-lg mb-3'>Company</h2>
                 <nav className='list-none'>
                   <li className="pb-1">
-                    <a className=' font-medium text-gray-600 tracking-widest  text-sm ' href='/about'>About Us</a>
+                    <Link className=' font-medium text-gray-600 tracking-widest  text-sm ' to='/about'>About Us</Link>
                   </li>
                   <li className="pb-1">
-                    <a className=' font-medium text-gray-600 tracking-widest text-sm' href='/services'>Services</a>
+                    <Link className=' font-medium text-gray-600 tracking-widest text-sm' to='/services'>Services</Link>
                   </li>
                   <li className="pb-1">
-                    <a className=' font-medium text-gray-600 tracking-widest text-sm' href='/portfolio'>Portfolio</a>
+                    <Link className=' font-medium text-gray-600 tracking-widest text-sm' to='/portfolio'>Portfolio</Link>
                   </li>
                   <li className="pb-1">
-                    <a className=' font-medium text-gray-600 tracking-widest text-sm ' href='/testimonials'>Testimonials</a>
+                    <Link className=' font-medium text-gray-600 tracking-widest text-sm ' to='/testimonials'>Testimonials</Link>
                   </li>
                   <li className="pb-1">
-                    <a className=' font-medium text-gray-600 tracking-widest text-sm' href='/blog'>Blog</a>
+                    <Link className=' font-medium text-gray-600 tracking-widest text-sm' to='/blog'>Blog</Link>
                   </li>
                   <li className="pb-1">
-                    <a className=' font-medium text-gray-600 tracking-widest text-sm' href='/contact'>Contact Us</a>
+                    <Link className=' font-medium text-gray-600 tracking-widest text-sm' to='/contact'>Contact Us</Link>
                   </li>
                 </nav>
               </div>
@@ -70,39 +71,39 @@ const Footer = () => {
                 <h2 className='transition easy-in-out delay-150 hover:translate-y-0.5 hover:scale-110 duration-300  font-semibold uppercase text-gray-900 tracking-widest text-md mb-3'>Services</h2>
                 <nav className='list-none'>
                   <li className="pb-1">
-                    <a className=' font-medium text-gray-600 tracking-widest text-sm ' href='/sofa'>Sofa Making</a>
+                    <Link className=' font-medium text-gray-600 tracking-widest text-sm ' to='/sofa'>Sofa Making</Link>
                   </li>
                   <li className="pb-1">
-                    <a className=' font-medium text-gray-600 tracking-widest text-sm' href='/office'>Commercial Interiors</a>
+                    <Link className=' font-medium text-gray-600 tracking-widest text-sm' to='/office'>Commercial Interiors</Link>
                   </li>
                   <li className="pb-1">
-                    <a className=' font-medium text-gray-600 tracking-widest text-sm' href='/space'>2D and 3D Layouts</a>
-                  </li>
-
-                  <li className="pb-1">
-                    <a className=' font-medium text-gray-600 tracking-widest text-sm ' href='/kitchen'>Modular Kitchens</a>
-                  </li>
-                  <li className="pb-1">
-                    <a className=' font-medium text-gray-600 tracking-widest text-sm ' href='/concept'>Space Planning</a>
+                    <Link className=' font-medium text-gray-600 tracking-widest text-sm' to='/space'>2D and 3D Layouts</Link>
                   </li>
 
                   <li className="pb-1">
-                    <a className=' font-medium text-gray-600 tracking-widest text-sm ' href='/wardrobe'>Wardrobes & Cupboards</a>
+                    <Link className=' font-medium text-gray-600 tracking-widest text-sm ' to='/kitchen'>Modular Kitchens</Link>
+                  </li>
+                  <li className="pb-1">
+                    <Link className=' font-medium text-gray-600 tracking-widest text-sm ' to='/concept'>Space Planning</Link>
                   </li>
 
                   <li className="pb-1">
-                    <a className=' font-medium text-gray-600 tracking-widest text-sm ' href='/living'>Living Room Interiors</a>
+                    <Link className=' font-medium text-gray-600 tracking-widest text-sm ' to='/wardrobe'>Wardrobes & Cupboards</Link>
                   </li>
 
                   <li className="pb-1">
-                    <a className=' font-medium text-gray-600 tracking-widest text-sm ' href='/bedroom'>Bedroom Room Interiors</a>
-                  </li>
-                  <li className="pb-1">
-                    <a className=' font-medium text-gray-600 tracking-widest text-sm ' href='/ceiling'>False Ceiling</a>
+                    <Link className=' font-medium text-gray-600 tracking-widest text-sm ' to='/living'>Living Room Interiors</Link>
                   </li>
 
                   <li className="pb-1">
-                    <a className=' font-medium text-gray-600 tracking-widest text-sm ' href='/fixture'>Fixture & Furniture</a>
+                    <Link className=' font-medium text-gray-600 tracking-widest text-sm ' to='/bedroom'>Bedroom Room Interiors</Link>
+                  </li>
+                  <li className="pb-1">
+                    <Link className=' font-medium text-gray-600 tracking-widest text-sm ' to='/ceiling'>False Ceiling</Link>
+                  </li>
+
+                  <li className="pb-1">
+                    <Link className=' font-medium text-gray-600 tracking-widest text-sm ' to='/fixture'>Fixture & Furniture</Link>
                   </li>
                 </nav>
               </div>
@@ -110,19 +111,19 @@ const Footer = () => {
                 <h2 className=' transition easy-in-out delay-150 hover:translate-y-0.5 hover:scale-110 duration-300  font-semibold uppercase text-gray-900 tracking-widest text-md mb-3'>Quicklinks</h2>
                 <nav className='list-none'>
                   <li className="pb-1">
-                    <a href='/media' className=' font-medium text-gray-600 tracking-widest text-sm  '>Media & Press</a>
+                    <Link to='/media' className=' font-medium text-gray-600 tracking-widest text-sm  '>Media & Press</Link>
                   </li>
                   <li className="pb-1">
-                    <a className=' font-medium text-gray-600 tracking-widest text-sm' href='/careers'>Careers</a>
+                    <Link className=' font-medium text-gray-600 tracking-widest text-sm' to='/careers'>Careers</Link>
                   </li>
                   <li className="pb-1">
-                    <a href='/events' className=' font-medium text-gray-600 tracking-widest text-sm  '>Events</a>
+                    <Link to='/events' className=' font-medium text-gray-600 tracking-widest text-sm  '>Events</Link>
                   </li>
                   <li className="pb-1">
-                    <a href='/support' className=' font-medium text-gray-600 tracking-widest text-sm  '>Support</a>
+                    <Link to='/support' className=' font-medium text-gray-600 tracking-widest text-sm  '>Support</Link>
                   </li>
                   <li className="pb-1">
-                    <a href='/contact' className=' font-medium text-gray-600 tracking-widest text-sm  '>Office Locator</a>
+                    <Link to='/contact' className=' font-medium text-gray-600 tracking-widest text-sm  '>Office Locator</Link>
                   </li>
                 </nav>
               </div>
@@ -131,25 +132,25 @@ const Footer = () => {
                 <h2 className='transition easy-in-out delay-150 hover:translate-y-0.5 hover:scale-110 duration-300  font-semibold uppercase text-gray-900 tracking-widest text-md mb-3'>Get Help!</h2>
                 <nav className='list-none'>
                   <li className="pb-1">
-                    <a href='/terms' className=' font-medium text-gray-600 tracking-widest text-sm  '>Terms of Service</a>
+                    <Link to='/terms' className=' font-medium text-gray-600 tracking-widest text-sm  '>Terms of Service</Link>
                   </li>
                   <li className="pb-1">
-                    <a href='/faqs' className=' font-medium text-gray-600 tracking-widest text-sm  '>FAQ's</a>
+                    <Link to='/faqs' className=' font-medium text-gray-600 tracking-widest text-sm  '>FAQ's</Link>
                   </li>
                   <li className="pb-1">
-                    <a href='/feedback' className=' font-medium text-gray-600 tracking-widest text-sm  '>Feedback</a>
+                    <Link to='/feedback' className=' font-medium text-gray-600 tracking-widest text-sm  '>Feedback</Link>
                   </li>
                   <li className="pb-1">
-                    <a href='/policy' className=' font-medium text-gray-600 tracking-widest text-sm  '>Privacy Policy</a>
+                    <Link to='/policy' className=' font-medium text-gray-600 tracking-widest text-sm  '>Privacy Policy</Link>
                   </li>
                   <li className="pb-1">
-                    <a href='/copyrights' className=' font-medium text-gray-600 tracking-widest text-sm  '>Copy Rights</a>
+                    <Link to='/copyrights' className=' font-medium text-gray-600 tracking-widest text-sm  '>Copy Rights</Link>
                   </li>
                   <li className="pb-1">
-                    <a href='/accessibility' className=' font-medium text-gray-600 tracking-widest text-sm  '>Accessibility</a>
+                    <Link to='/accessibility' className=' font-medium text-gray-600 tracking-widest text-sm  '>Accessibility</Link>
                   </li>
                   <li className="pb-1">
-                    <a href='/sitemap' className=' font-medium text-gray-600 tracking-widest text-sm  '>Site Map</a>
+                    <Link to='/sitemap' className=' font-medium text-gray-600 tracking-widest text-sm  '>Site Map</Link>
                   </li>
                 </nav>
               </div>
@@ -162,9 +163,9 @@ const Footer = () => {
         <div className='container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col'>
           <p className='text-sm text-gray-500 text-center md:text-left sm:ml-6 sm:mt-0 mt-4 flex flex-col md:flex-row'>
             <span>Copyright © 2023
-              <a href='/' className='text-teal-900 font-bold hover:text-gray-900'> RM Interiors Era</a></span>
+              <Link to='/' className='text-teal-900 font-bold hover:text-gray-900'> RM Interiors Era</Link></span>
             <span>— Designed by
-              <a href='https://satien.in' rel='noopener noreferrer' className='text-teal-900 ml-1 font-bold hover:text-red-600' target='_blank'>Satien.in</a></span>
+              <Link to='https://satien.in' rel='noopener noreferrer' className='text-teal-900 ml-1 font-bold hover:text-red-600' target='_blank'>Satien.in</Link></span>
           </p>
           <span className='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
             <a className='transition easy-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' href='http://facebook.com/rminteriorsera'>

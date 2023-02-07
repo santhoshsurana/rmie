@@ -1,8 +1,8 @@
 import React from "react";
 
-import bohemian1 from "../../../assets/images/bohemian1.jpg";
-import bohemian2 from "../../../assets/images/bohemian2.jpg";
-import bohemian3 from "../../../assets/images/bohemian3.jpg";
+import industrial1 from "../../../assets/images/industrial1.jpg";
+import industrial2 from "../../../assets/images/industrial2.jpg";
+import industrial3 from "../../../assets/images/industrial3.jpg";
 
 const Industrial = () => {
   return (
@@ -19,7 +19,7 @@ const Industrial = () => {
           </p>
         </div>
         <div className="my-auto  md:w-1/3">
-          <img src={bohemian1} alt="bohemian style living room" className="object-cover h-[420px]" />
+          <img src={industrial1} alt="industrial style living room" className="object-cover h-80 w-full" />
         </div>
       </div>
 
@@ -29,7 +29,7 @@ const Industrial = () => {
             In terms of decor, industrial interior design often incorporates a mix of vintage and modern pieces. For example, a vintage factory cart might be used as a coffee table or a vintage metal sign might be hung above a modern sofa. The key is to create a sense of balance and harmony in the space. In terms of lighting, industrial interior design often incorporates a mix of natural and artificial light. For example, large windows or skylights might be used to bring in natural light, while vintage-inspired light fixtures such as bare bulb pendants or exposed filament bulbs can add a sense of charm and character to the space.
           </p>
         </div>
-        <div className="my-auto md:w-1/3"><img src={bohemian2} alt="bohemian style living room" className="object-cover h-[420px] " /></div>
+        <div className="my-auto md:w-1/3"><img src={industrial2} alt="industrial style living room" className="object-cover h-72 w-full" /></div>
       </div>
       <div className="flex flex-col md:flex-row">
         <div className=" md:w-2/3  px-10 font-normal leading-relaxed text-justify text-gray-600  bg-gray-50">
@@ -37,7 +37,7 @@ const Industrial = () => {
             Overall, industrial interior design is all about creating a space that is both functional and visually striking. By using raw materials, neutral colors, and a mix of vintage and modern pieces, industrial design creates a space that is both beautiful and practical. It's a perfect style for those who appreciate the history and character of industrial elements, and want to incorporate them into their home. Industrial design is not just about mimicking a factory or a warehouse, it's about creating a space that feels authentic, raw and unique. It's a style that is always pushing the boundaries of design and constantly seeking new ways to improve the functionality and aesthetic of a space.
           </p>
         </div>
-        <div className="my-auto md:w-1/3"><img src={bohemian3} alt="bohemian style living room" className="object-cover  h-96 " /></div>
+        <div className="my-auto md:w-1/3"><img src={industrial3} alt="industrial style living room" className="object-cover  h-72 w-full" /></div>
       </div>
     </section>
 

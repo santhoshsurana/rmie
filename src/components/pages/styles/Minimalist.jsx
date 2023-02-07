@@ -1,8 +1,8 @@
 import React from "react";
 
-import bohemian1 from "../../../assets/images/bohemian1.jpg";
-import bohemian2 from "../../../assets/images/bohemian2.jpg";
-import bohemian3 from "../../../assets/images/bohemian3.jpg";
+import minimalist1 from "../../../assets/images/minimalist1.jpg";
+import minimalist2 from "../../../assets/images/minimalist2.jpg";
+import minimalist3 from "../../../assets/images/minimalist3.webp";
 
 const Minimalist = () => {
   return (
@@ -24,7 +24,7 @@ const Minimalist = () => {
           </p>
         </div>
         <div className="my-auto  md:w-1/3">
-          <img src={bohemian1} alt="bohemian style living room" className="object-cover h-[420px]" />
+          <img src={minimalist1} alt="minimalist style living room" className="object-cover h-96 w-full" />
         </div>
       </div>
 
@@ -40,7 +40,7 @@ const Minimalist = () => {
             Minimalist design is all about creating a space that is clean, functional, and visually pleasing. It emphasizes on the essentials and getting rid of the unnecessary. It's a perfect style for those who want to keep their space uncluttered, simple, and with a sense of order. Minimalist design is not about getting rid of everything, it's about being intentional about what you keep and how you arrange it.
           </p>
         </div>
-        <div className="my-auto md:w-1/3"><img src={bohemian2} alt="bohemian style living room" className="object-cover h-[420px] " /></div>
+        <div className="my-auto md:w-1/3"><img src={minimalist2} alt="minimalist style living room" className="object-cover h-72 w-full" /></div>
       </div>
       <div className="flex flex-col md:flex-row">
         <div className=" md:w-2/3  px-10 font-normal leading-relaxed text-justify text-gray-600  bg-gray-50">
@@ -49,7 +49,7 @@ const Minimalist = () => {
 
           </p>
         </div>
-        <div className="my-auto md:w-1/3"><img src={bohemian3} alt="bohemian style living room" className="object-cover  h-96 " /></div>
+        <div className="my-auto md:w-1/3"><img src={minimalist3} alt="minimalist style living room" className="object-cover  h-68 w-full" /></div>
       </div>
     </section>
 

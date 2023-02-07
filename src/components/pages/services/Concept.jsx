@@ -1,7 +1,9 @@
 import React from "react";
 
-import bohemian1 from "../../../assets/images/bohemian1.jpg";
-import bohemian2 from "../../../assets/images/bohemian2.jpg";
+import concept1 from "../../../assets/images/concpet1.webp";
+import concept2 from "../../../assets/images/concpet2.webp";
+import concept3 from "../../../assets/images/concpet3.webp";
+import concept4 from "../../../assets/images/concpet4.webp";
 
 const Concept = () => {
   return (
@@ -15,7 +17,8 @@ const Concept = () => {
             Our Interior Concept Design and Development services are tailored to meet the unique needs of each of our clients. We start by conducting an in-depth consultation to understand your goals and preferences for your space. Whether you're looking to create a modern, minimalist aesthetic or a warm and inviting atmosphere, we'll work with you to create a design that reflects your personal style.</p>
         </div>
         <div className="my-auto md:w-1/3">
-          <img src={bohemian1} alt="ceiling" className="object-cover h-[440px]  " />
+          <img src={concept1} alt="ceiling" className="object-contain " />
+          <img src={concept3} alt="ceiling" className="object-contain  " />
         </div>
       </div>
 
@@ -28,7 +31,10 @@ const Concept = () => {
             We understand that your space is an extension of who you are and that it should enhance your daily life. That's why we're dedicated to creating a space that you'll love and be proud to show off. With our comprehensive approach and attention to detail, you can trust that the final result will be a space that truly reflects your unique personality and style. Contact us today to schedule a consultation and start bringing your dream space to reality.
           </p>
         </div>
-        <div className=" my-auto  md:w-1/3"><img src={bohemian2} alt="bohemian style living room" className="object-cover h-[420px]" /></div>
+        <div className=" my-auto  md:w-1/3">
+          <img src={concept2} alt="concept style living room" className="object-contain" />
+          <img src={concept4} alt="concept style living room" className="object-contain" />
+          </div>
 
       </div>
     </section>

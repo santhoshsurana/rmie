@@ -1,6 +1,7 @@
 import React from "react";
-import bohemian1 from "../../../assets/images/bohemian1.jpg";
-import bohemian2 from "../../../assets/images/bohemian2.jpg";
+import office1 from "../../../assets/images/office1.jpg";
+import office2 from "../../../assets/images/office2.jpg";
+import office3 from "../../../assets/images/office2.jpg";
 const Office = () => {
   return (
     <section className="max-w-6xl mx-auto">
@@ -13,12 +14,12 @@ const Office = () => {
           </p>
           </div>
           <div className="my-auto md:w-1/3">
-            <img src={bohemian1} alt="ceiling" className="object-cover h-96  " />
+            <img src={office1} alt="ceiling" className="object-cover h-96  " />
           </div>
         
         </div>
         <div className="flex flex-col md:flex-row-reverse">
-          <div className=" md:w-2/3  px-10 font-normal leading-relaxed text-justify text-gray-600  bg-gray-50">
+          <div className=" md:w-2/3  px-10 font-normal leading-relaxed text-justify text-gray-600  bg-teal-50">
           
 
           <p className=" text-base py-5" >In addition to our design and development services, we also offer project management to ensure that the construction process runs smoothly and is completed on time and within budget. Our team of experienced professionals work closely with contractors and other trades to ensure that the final product is of the highest quality.
@@ -28,7 +29,7 @@ const Office = () => {
         </p>
         </div>
         <div className="my-auto md:w-1/3">
-          <img src={bohemian1} alt="ceiling" className="object-cover h-72  " />
+          <img src={office2} alt="ceiling" className="object-cover h-72  " />
         </div>
       </div>
       <div className="flex flex-col md:flex-row">
@@ -50,7 +51,7 @@ const Office = () => {
         </p>
       </div>
       <div className="my-auto md:w-1/3">
-        <img src={bohemian1} alt="ceiling" className="object-cover h-[440px]  " />
+        <img src={office3} alt="ceiling" className="object-cover h-[440px]  " />
       </div>
     </div >
             </section >

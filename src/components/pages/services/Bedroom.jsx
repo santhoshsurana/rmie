@@ -1,8 +1,8 @@
 import React from "react";
 
-import bohemian1 from "../../../assets/images/bohemian1.jpg";
-import bohemian2 from "../../../assets/images/bohemian2.jpg";
-import bohemian3 from "../../../assets/images/bohemian3.jpg";
+import bedroom1 from "../../../assets/images/bedroom1.webp";
+import bedroom2 from "../../../assets/images/bedroom2.webp";
+import bedroom3 from "../../../assets/images/bedroom3.jpg";
 
 const Bedroom = () => {
   return (
@@ -19,7 +19,7 @@ const Bedroom = () => {
           </p>
         </div>
         <div className=" my-auto  md:w-1/3">
-          <img src={bohemian1} alt="bohemian style living room" className="object-cover  h-96 " />
+          <img src={bedroom1} alt="bedroom style living room" className="object-cover  h-80 " />
         </div>
       </div>
       <div className="flex md:flex-row-reverse flex-col">
@@ -31,7 +31,8 @@ const Bedroom = () => {
             Don't settle for a generic bedroom. Contact us today to schedule a consultation and start creating a space that truly reflects your style and enhances your daily life. Let us help you create a bedroom that you'll love and be proud to show off.
           </p>
         </div>
-        <div className=" my-auto  md:w-1/3"><img src={bohemian2} alt="bohemian style living room" className="object-contain " /></div>
+        <div className=" my-auto  md:w-1/3">
+          <img src={bedroom2} alt="bedroom style living room" className="object-cover h-96" /></div>
       </div>
       <div className="flex flex-col md:flex-row ">
         <div className=" md:w-2/3  px-10 font-normal leading-relaxed text-justify text-gray-600  bg-gray-50">
@@ -40,7 +41,7 @@ const Bedroom = () => {
           </p>
         </div>
         <div className=" my-auto w-full  md:w-1/3">
-          <img src={bohemian3} alt="bohemian style living room" className="object-cover h-96" /></div>
+          <img src={bedroom3} alt="bedroom style living room" className="object-cover h-72" /></div>
       </div>
     </section>
   )

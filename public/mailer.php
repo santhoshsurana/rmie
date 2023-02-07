@@ -12,7 +12,7 @@ if ($_POST)
 
 	http_response_code(200);
 	$subject = $_POST['fname'];
-	$to = "me@malith.pro";
+	$to = "info@rminteriorsera.com";
 	$from = $_POST['email'];
 
 	// data
@@ -28,7 +28,7 @@ if ($_POST)
 
 	// echo json_encode( $_POST );
 
-	echojson_encode(array(
+	echo json_encode(array(
 		"sent" => true
 	));
 	}
@@ -37,7 +37,7 @@ if ($_POST)
 
 	// tell the user about error
 
-	echojson_encode(["sent" => false, "message" => "Something went wrong"]);
+	echo json_encode(["sent" => false, "message" => "Something went wrong"]);
 	}
 
 ?>

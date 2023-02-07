@@ -6,7 +6,6 @@ import { links } from "./Mylinks";
 
 const NavLinks = () => {
   const [heading, setHeading] = useState("");
-  const [open, setOpen] = useState(false);
   return (
     <>
       {links.map((link) => (
@@ -38,8 +37,8 @@ const NavLinks = () => {
             <ul>
               {/* sublinks */}
               {link.sublinks.map((slink) => (
-                <li key={slink.name} className="py-3 pl-4 hover:bg-teal-900 p-2 font-semibold hover:text-white">
-                  <Link to={slink.link} >{slink.name}</Link>
+                <li key={slink.name} className="hover:bg-teal-900 py-4 font-semibold hover:text-white">
+                  <Link to={slink.link} className='py-4 pl-4 w-full'>{slink.name}</Link>
                 </li>
               ))}
             </ul>

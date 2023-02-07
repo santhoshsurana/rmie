@@ -1,7 +1,7 @@
 import React from "react";
 
-import bohemian1 from "../../../assets/images/bohemian1.jpg";
-import bohemian2  from "../../../assets/images/bohemian2.jpg";
+import fixture2  from "../../../assets/images/fixture2.jpeg";
+import fixture3  from "../../../assets/images/fixture3.jpg";
 
 const Fixture = () => {
   return (
@@ -14,7 +14,7 @@ const Fixture = () => {
           Are you looking for unique and high-quality fixtures and furniture for your home or business? Look no further! Our team specializes in custom fixture and furniture design and making, ensuring that each piece is tailored to your exact needs and preferences. From modern and minimalist to classic and elegant, our designs will elevate the aesthetic of any space. Plus, our use of top-quality materials and expert craftsmanship guarantees durability and longevity. Don't settle for cookie-cutter, mass-produced furniture. Invest in custom pieces that truly reflect your personal style and enhance the functionality of your space. Contact us today to discuss your project and start bringing your vision to life!</p>
           </div>
         <div className="my-auto md:w-1/3">
-          <img src={bohemian1} alt="ceiling" className="object-cover h-80  " />
+          <img src={fixture2} alt="ceiling" className="object-cover h-80  " />
         </div>
       </div>
       <div className="flex flex-col md:flex-row-reverse">
@@ -23,7 +23,7 @@ const Fixture = () => {
         </p>
         </div>
         <div className="my-auto md:w-1/3">
-          <img src={bohemian1} alt="ceiling" className="object-cover h-80  " />
+          <img src={fixture3} alt="ceiling" className="object-cover h-80  " />
         </div>
       </div>
     </section>

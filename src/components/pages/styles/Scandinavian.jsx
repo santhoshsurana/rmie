@@ -1,8 +1,8 @@
 import React from "react";
 
-import bohemian1 from "../../../assets/images/bohemian1.jpg";
-import bohemian2  from "../../../assets/images/bohemian2.jpg";
-import bohemian3 from "../../../assets/images/bohemian3.jpg";
+import scandinavian1 from "../../../assets/images/scandinavian1.jpg";
+import scandinavian2  from "../../../assets/images/scandinavian2.jpg";
+import scandinavian3 from "../../../assets/images/scandinavian3.jpeg";
 
 const Scandinavian = () => {
   return (
@@ -18,7 +18,7 @@ const Scandinavian = () => {
           </p>
         </div>
         <div className="my-auto  md:w-1/3">
-          <img src={bohemian1} alt="bohemian style living room" className="object-cover h-[420px]" />
+          <img src={scandinavian1} alt="scandinavian style living room" className="object-cover h-96 w-full" />
         </div>
       </div>
 
@@ -34,7 +34,7 @@ const Scandinavian = () => {
 
           </p>
         </div>
-        <div className="my-auto md:w-1/3"><img src={bohemian2} alt="bohemian style living room" className="object-cover h-[420px] " /></div>
+        <div className="my-auto md:w-1/3"><img src={scandinavian2} alt="scandinavian style living room" className="object-cover h-72 w-full " /></div>
       </div>
       <div className="flex flex-col md:flex-row">
         <div className=" md:w-2/3  px-10 font-normal leading-relaxed text-justify text-gray-600  bg-gray-50">
@@ -45,7 +45,7 @@ const Scandinavian = () => {
 
           </p>
         </div>
-        <div className="my-auto md:w-1/3"><img src={bohemian3} alt="bohemian style living room" className="object-cover  h-96 " /></div>
+        <div className="my-auto md:w-1/3"><img src={scandinavian3} alt="scandinavian style living room" className="object-cover h-60 w-full " /></div>
       </div>
     </section>
    
